@@ -3,6 +3,9 @@
 ## Assumptions
 
 You're using ubuntu 20.04
+You're able to reach your PCC console from your ubuntu 20.04 machine
+You understand <IP_ADDRESS/HOSTNAME:PORT> should look something like: `192.39.1.3:38290` or `pcc-demo-deploy.io:40349`
+You would know how to harden this process if working in a production environment. 
 
 ## Instructions
 * Step 1: `git clone https://github.com/Kyle9021/pcc_api_scripts`

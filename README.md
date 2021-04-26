@@ -11,6 +11,8 @@ You're using ubuntu 20.04
 * Step 4: Install jq if you dont have it `sudo apt update && upgrade -y` then `sudo apt install jq`
 * Step 5: `bash container_start_report.bash`
 
-The report will be in a text file called report.text. This is a very simple low-level script that should be used for demo/poc purposes. Written in Bash for portability. 
+The report will be in a text file called report.text. This is a very simple low-level script that should be used for demo/poc purposes. Written in Bash for portability. The report will list the `hostname` of the machine the container was found on, then the type of message `container started`, with the `timestamp` and the `containerId`
+
+Step 6: Once script runs `cat report.txt`
 
 Please be sure to check out the offical [PAN development site](https://prisma.pan.dev/) for Prisma Cloud 

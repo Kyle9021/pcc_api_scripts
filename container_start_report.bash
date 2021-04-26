@@ -38,7 +38,9 @@ for row in $(echo "${container_profile_api_call}" | jq '.[] | {ID: ._id, Image_N
    -u ${prisma_user}:${prisma_user_password} \
    -H 'Content-Type: application/json' \
    -X GET \
-   "https://"${pcc_url}"/api/v1/profiles/container/{"${row}"}/forensic?hostname={"${host}"}" | jq '.[] | {"type": .type, "time": .timestamp, "containerId": .containerId}' | grep Container -A 2 >> logfile
+   "https://"${pcc_url}"/api/v1/profiles/container/{"${row}"}/forensic?hostname={"${host}"}"\
+ | jq '.[] | {"type": .type, "time": .timestamp, "containerId": .containerId}'\
+ | grep Container -A 2 >> logfile
  done
 done
 

@@ -12,7 +12,11 @@ pcc_url=<IP_ADDRESS/HOSTNAME:PORT>
 
 
 # don't change anything below this line. 
-
+if ! command -v jq &> /dev/null
+then
+    echo "jq could not be found please install it first using 'sudo apt install jq'"
+    exit
+fi
 # creates an array of host names and assigns it to a variable host_name_api_call
 host_name_api_call=$(curl -k \
   -u ${prisma_user}:${prisma_user_password}\

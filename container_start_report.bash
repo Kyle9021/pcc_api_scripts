@@ -4,6 +4,7 @@
 # Written by Kyle Butler Prisma Cloud Channel Systems Engineer
 # Choose bash scripting for the benefits of portability
 # Requires jq to be installed.
+# Script should be hardened in a production environment. For example the curl commands used in this script are using the '-k' flag = insecure. 
 # Assign the variables below or export them with a different script and call it in this script. 
 
 prisma_user=<USERNAME>

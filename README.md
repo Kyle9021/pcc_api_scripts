@@ -8,7 +8,7 @@
 * You understand <IP_ADDRESS/HOSTNAME:PORT> should look something like: `192.39.1.3:38290` or `pcc-demo-deploy.io:40349`
 * You would know how to harden this process if working in a production environment. 
 
-* * If you do decide to keep the keys/username/password in this script, then it's critical you:
+* If you do decide to keep the keys/username/password in this script, then it's critical you:
   
    * Add it to your `.gitignore` file and `chmod 700 container_start_report.bash` between steps 2 and 3 below so that others can't read, write, or excute it. 
 

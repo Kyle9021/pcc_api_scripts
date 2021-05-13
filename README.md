@@ -1,4 +1,4 @@
-# POC Prisma Cloud COmpute Self-hosted container start report
+# POC Prisma Cloud Compute Self-hosted container start report - Will update soon
 
 ## Assumptions
 

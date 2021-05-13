@@ -10,7 +10,7 @@
 
 * If you do decide to keep the keys/username/password in this script, then it's critical you:
   
-   * Add it to your `.gitignore` file and `chmod 700 container_start_report.bash` between steps 2 and 3 below so that others can't read, write, or excute it. 
+   * Add it to your `.gitignore` (if using git) file and `chmod 700 container_start_report.bash` between steps 2 and 3 below so that others can't read, write, or excute it. 
 
 # Instructions
 

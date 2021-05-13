@@ -12,7 +12,6 @@
   
    * Add it to your `.gitignore` (if using git) file and `chmod 700 container_start_report.bash` between steps 2 and 3 below so that others can't read, write, or excute it. 
 
-# Instructions
 
 ## Instructions
 * Step 1: `git clone https://github.com/Kyle9021/pcc_api_scripts`
@@ -27,4 +26,11 @@ NOTE: It may take a while to run depending on how many containers and hosts are 
 
 * Step 6: Once script runs `cat report.txt`
 
-Please be sure to check out the offical [PAN development site](https://prisma.pan.dev/) for Prisma Cloud 
+
+# Links to reference
+
+* [Why this matters](https://www.softwareone.com/en/blog/all-articles/2020/11/24/oracle-java-licensing)
+* [Official JQ Documentation](https://stedolan.github.io/jq/manual/)
+* [Grep Documentation](https://www.gnu.org/software/grep/manual/grep.html)
+* [Exporting variables for API Calls and why I choose bash](https://apiacademy.co/2019/10/devops-rest-api-execution-through-bash-shell-scripting/)
+* [PAN development site](https://prisma.pan.dev/)

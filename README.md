@@ -27,7 +27,7 @@ NOTE: It may take a while to run depending on how many containers and hosts are 
 * Step 6: Once script runs `cat report.txt`
 
 
-# Links to reference
+## Links to reference
 
 * [Why this matters](https://www.softwareone.com/en/blog/all-articles/2020/11/24/oracle-java-licensing)
 * [Official JQ Documentation](https://stedolan.github.io/jq/manual/)
